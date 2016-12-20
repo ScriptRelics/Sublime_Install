@@ -53,37 +53,37 @@
 	Align​Tab - https://packagecontrol.io/packages/AlignTab 	# alignment plugin for tables and more
 		Go to Preferences > Package Settings > Align​Tab > Content Menu User
 			Paste:
-[
-   {"caption" : "-"},
-    {
-      "id": "aligntab",
-      "caption": "Align By",
-      "children": [
-              {
-              "caption" : "#",
-              "command" : "align_tab",
-              "args"    : {"user_input" : "\\#"}
-              },
-              {
-              "caption": "",
-              },
-              {
-              "caption": "Alignment - SELECTED",
-              "command": "alignment"
-              },
-              {
-              "caption": "AlignTab: Live Preview Mode",
-              "command": "align_tab",
-              "args": {"live_preview" : true}
-              },
-              {
-              "caption": "AlignTab: Table Mode",
-              "command": "align_tab",
-              "args": {"mode" : true}
-              }
-      ]
-  }
-]
+				[
+				   {"caption" : "-"},
+				    {
+				      "id": "aligntab",
+				      "caption": "Align By",
+				      "children": [
+				              {
+				              "caption" : "#",
+				              "command" : "align_tab",
+				              "args"    : {"user_input" : "\\#"}
+				              },
+				              {
+				              "caption": "",
+				              },
+				              {
+				              "caption": "Alignment - SELECTED",
+				              "command": "alignment"
+				              },
+				              {
+				              "caption": "AlignTab: Live Preview Mode",
+				              "command": "align_tab",
+				              "args": {"live_preview" : true}
+				              },
+				              {
+				              "caption": "AlignTab: Table Mode",
+				              "command": "align_tab",
+				              "args": {"mode" : true}
+				              }
+				      ]
+				  }
+				]
 			
 
 	Side​Bar​Enhancements - https://packagecontrol.io/packages/SideBarEnhancements
