@@ -1,4 +1,4 @@
-# Sublime Text 3
+# Sublime Text 3 Personal Install Guide
 
 ## Download Sublime Text at - https://www.sublimetext.com/3
 
