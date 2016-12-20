@@ -33,20 +33,20 @@
 
 
 ## Packages 
-	Emmet - https://packagecontrol.io/packages/Emmet                            	        # auto-completion
-	AutoFileName - https://packagecontrol.io/packages/AutoFileName              	        # Autocomplete Filenames in Sublime Text
-	All Autocomplete - https://packagecontrol.io/packages/All%20Autocomplete    	        # Extends the default autocomplete to find matches in all open files
-	Better Completion - https://packagecontrol.io/packages/Better%20Completion  	        # More auto-completion
-	Sublime​Code​Intel - https://packagecontrol.io/packages/SublimeCodeIntel                  # smart autocomplete
+	Emmet - https://packagecontrol.io/packages/Emmet                                     # auto-completion
+	AutoFileName - https://packagecontrol.io/packages/AutoFileName                       # Autocomplete Filenames in Sublime Text
+	All Autocomplete - https://packagecontrol.io/packages/All%20Autocomplete             # Extends the default autocomplete to find matches in all open files
+	Better Completion - https://packagecontrol.io/packages/Better%20Completion           # More auto-completion
+	Sublime​Code​Intel - https://packagecontrol.io/packages/SublimeCodeIntel             # smart autocomplete
 
-	Bracket​Highlighter - https://packagecontrol.io/packages/BracketHighlighter  	        # Bracket​ Highlighter
-	Colorcoder - https://packagecontrol.io/packages/Colorcoder                  	        # highlight every variable in its own, consistent color
-	Color​Picker - https://packagecontrol.io/packages/Color​Picker                	        # Pick a color with (ctrl + shift + c)
-	Color Highlighter - https://packagecontrol.io/packages/Color%20Highlighter  	        # previews color values in color
+	Bracket​Highlighter - https://packagecontrol.io/packages/BracketHighlighter          # Bracket​ Highlighter
+	Colorcoder - https://packagecontrol.io/packages/Colorcoder                           # highlight every variable in its own, consistent color
+	Color​Picker - https://packagecontrol.io/packages/Color​Picker                       # Pick a color with (ctrl + shift + c)
+	Color Highlighter - https://packagecontrol.io/packages/Color%20Highlighter           # previews color values in color
 
-	Origami - https://packagecontrol.io/packages/Origami                                    # Split the window however you like! Create new panes, delete panes, move and clone views from pane to pane	
+	Origami - https://packagecontrol.io/packages/Origami                                 # Split the window however you like! Create new panes, delete panes, move and clone views from pane to pane	
 	
-	File​Op​Tab​Context​Menu - https://packagecontrol.io/packages/FileOpTabContextMenu 	        # adds a few useful options to tab context menu
+	File​Op​Tab​Context​Menu - https://packagecontrol.io/packages/FileOpTabContextMenu 	 # adds a few useful options to tab context menu
 
 
 ## Packages with additional settup
