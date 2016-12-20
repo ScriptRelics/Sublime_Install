@@ -32,7 +32,7 @@
 			}
 
 
-## Packages 
+## Packages - https://packagecontrol.io/
 	Emmet - https://packagecontrol.io/packages/Emmet                                 # auto-completion
 	AutoFileName - https://packagecontrol.io/packages/AutoFileName                   # Autocomplete Filenames in Sublime Text
 	All Autocomplete - https://packagecontrol.io/packages/All%20Autocomplete         # Extends the default autocomplete to find matches in all open files
