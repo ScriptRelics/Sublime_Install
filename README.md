@@ -50,9 +50,9 @@
 
 
 ## Packages with additional settup
-	Alignment - https://web.archive.org/web/20150825034957/http://wbond.net/sublime_packages/alignment 	# alignment of multi-line selections and multiple selections
-	Align​Tab - https://packagecontrol.io/packages/AlignTab 	# alignment plugin for tables and more
-		Go to Preferences > Package Settings > Align​Tab > Content Menu User
+	Alignment - https://web.archive.org/web/20150825034957/http://wbond.net/sublime_packages/alignment 	 # alignment of multi-line selections and multiple selections
+	AlignTab - https://packagecontrol.io/packages/AlignTab 	                                             # alignment plugin for tables and more
+		Go to Preferences > Package Settings > AlignTab > Content Menu User
 			Paste:
 				[
 				   {"caption" : "-"},
@@ -87,7 +87,7 @@
 				]
 			
 
-	Side​Bar​Enhancements - https://packagecontrol.io/packages/SideBarEnhancements
+	SideBarEnhancements - https://packagecontrol.io/packages/SideBarEnhancements
 		Go to Preferences > Package Settings > Side Bar > Settings - User
 			Paste:
 			{
