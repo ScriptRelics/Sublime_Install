@@ -18,7 +18,7 @@
 		type: "install" without quotes in the popup and you should see "Package Control: Install Package" if not Package Control is not installed.
 
 
-# Theams
+# Theme
 	Flatland - https://packagecontrol.io/packages/Theme%20-%20Flatland
 		Press: Ctrl + Shift + P
 		Type: install
