@@ -1,11 +1,11 @@
 # Sublime Text 3
 
-# Download Sublime Text at - https://www.sublimetext.com/3
+## Download Sublime Text at - https://www.sublimetext.com/3
 
-# Pre-Setup
+## Pre-Setup
 	Click View - select sidebar -
 
-# Install Package Control - https://packagecontrol.io/installation
+## Install Package Control - https://packagecontrol.io/installation
 	# Show the consol
 		Press: Ctrl + `
 	# Paste this code into the consol for ST3:
@@ -18,7 +18,7 @@
 		type: "install" without quotes in the popup and you should see "Package Control: Install Package" if not Package Control is not installed.
 
 
-# Theme
+## Theme
 	Flatland - https://packagecontrol.io/packages/Theme%20-%20Flatland
 		Press: Ctrl + Shift + P
 		Type: install
@@ -32,11 +32,12 @@
 			}
 
 
-# Packages 
+## Packages 
 	Emmet - https://packagecontrol.io/packages/Emmet                            	        # auto-completion
 	AutoFileName - https://packagecontrol.io/packages/AutoFileName              	        # Autocomplete Filenames in Sublime Text
 	All Autocomplete - https://packagecontrol.io/packages/All%20Autocomplete    	        # Extends the default autocomplete to find matches in all open files
 	Better Completion - https://packagecontrol.io/packages/Better%20Completion  	        # More auto-completion
+	Sublime​Code​Intel - https://packagecontrol.io/packages/SublimeCodeIntel                  # smart autocomplete
 
 	Bracket​Highlighter - https://packagecontrol.io/packages/BracketHighlighter  	        # Bracket​ Highlighter
 	Colorcoder - https://packagecontrol.io/packages/Colorcoder                  	        # highlight every variable in its own, consistent color
@@ -48,7 +49,7 @@
 	File​Op​Tab​Context​Menu - https://packagecontrol.io/packages/FileOpTabContextMenu 	        # adds a few useful options to tab context menu
 
 
-# Packages with additional settup
+## Packages with additional settup
 	Alignment - https://web.archive.org/web/20150825034957/http://wbond.net/sublime_packages/alignment 	# alignment of multi-line selections and multiple selections
 	Align​Tab - https://packagecontrol.io/packages/AlignTab 	# alignment plugin for tables and more
 		Go to Preferences > Package Settings > Align​Tab > Content Menu User
@@ -98,12 +99,12 @@
 	gitgutter - https://packagecontrol.io/packages/GitGutter 	#show an icon in the gutter area indicating whether a line has been inserted, modified or deleted
 			#GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
 
-# Other Packages
+## Other Packages
 	View In Browser - https://packagecontrol.io/packages/View%20In%20Browser
 	ResourceViewer - https://packagecontrol.io/packages/PackageResourceViewer 	# viewing and editing package resources
 
 
-# Preferances File
+## Preferances File
 	{
 		"color_scheme": "Packages/Colorcoder/Flatland Dark (Colorcoded).tmTheme",
 		"original_color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
@@ -112,5 +113,4 @@
 		"auto_complete_commit_on_tab": true,
 		"spell_check": true,
 	}
-
 
