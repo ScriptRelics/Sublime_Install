@@ -103,14 +103,3 @@
 	View In Browser - https://packagecontrol.io/packages/View%20In%20Browser
 	ResourceViewer - https://packagecontrol.io/packages/PackageResourceViewer 	# viewing and editing package resources
 
-
-## Preferances File
-	{
-		"color_scheme": "Packages/Colorcoder/Flatland Dark (Colorcoded).tmTheme",
-		"original_color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-		"theme": "Flatland Dark.sublime-theme",
-		
-		"auto_complete_commit_on_tab": true,
-		"spell_check": true,
-	}
-
