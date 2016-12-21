@@ -95,6 +95,31 @@
 				"i_donated_to_sidebar_enhancements_developer": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DD4SL2AHYJGBW",
 			}
 
+	File​Browser - https://packagecontrol.io/packages/FileBrowser 	# browse your files in a normal tab
+		Press: Ctrl + Shift + P  and run this command: Package Control: Satisfy Dependencies
+		Paste/Add this to your keybinds: Preferences > Key Bindings
+			[
+				{
+			  "keys": ["f1"],
+			  "command": "dired",
+			  "args": {
+			    "immediate": true,
+			    "single_pane": true,
+			    "other_group": "right",
+			    "project": true
+			  }
+			}
+			]
+
+		restart ST3
+		Press F1 to activate the File Browser
+		# You can also activate it: 
+			Press: Ctrl + Shift + P  and run: Browse Mode...
+			Select a folder
+			Place the Desktop Tab on another group tab: View > Layout > Columns: 2
+		# Commands / Info can be found here: https://github.com/aziz/SublimeFileBrowser
+
+
 	git - https://packagecontrol.io/packages/Git
 	gitgutter - https://packagecontrol.io/packages/GitGutter 	#show an icon in the gutter area indicating whether a line has been inserted, modified or deleted
 			#GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
