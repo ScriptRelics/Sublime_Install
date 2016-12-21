@@ -1,7 +1,16 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Colorcoder/Flatland Dark (Colorcoded).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"original_color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 	"spell_check": true,
-	"theme": "Flatland Dark.sublime-theme"
+	"theme": "Flatland Dark.sublime-theme",
+	"draw_white_space": "all",
+	"margin": 1,
+	"show_encoding": true,
+	"scroll_speed": 2.0,
+	"auto_complete_commit_on_tab": true,
 }
