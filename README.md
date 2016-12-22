@@ -31,6 +31,7 @@
 			  "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme"
 			}
 
+		Save and restart ST3
 
 ## Packages - https://packagecontrol.io/
 	Emmet - https://packagecontrol.io/packages/Emmet                                 # auto-completion
