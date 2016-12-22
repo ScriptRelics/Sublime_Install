@@ -51,7 +51,7 @@
 
 ## Packages with additional settup
 	Alignment - https://web.archive.org/web/20150825034957/http://wbond.net/sublime_packages/alignment 	 # alignment of multi-line selections and multiple selections
-		# Select the text to align and press Ctrl + Alt + A to use or right click and select "Alignment - SELECTED" 
+		# Select the text to align and press Ctrl + Alt + A to use or right click and select: Align By > Alignment - SELECTED 
 	AlignTab - https://packagecontrol.io/packages/AlignTab 	# alignment plugin for tables and more
 		# Add the Alignment package to the AlignTab Menu and some other options
 		Go to Preferences > Package Settings > AlignTab > Content Menu User
@@ -127,8 +127,8 @@
 	# Check to see if it is working by going to the command line and type: git
 	# Install Git and gutter on ST3
 		git - https://packagecontrol.io/packages/Git
-			Press: Ctrl + Shift + P  and run: Git: Toggle Annotations 	# This will show you changes from the master copy
-		gitgutter - https://packagecontrol.io/packages/GitGutter 	# Show an icon in the gutter area indicating whether a line has changes from the file NOT THE MASTER
+			Press: Ctrl + Shift + P  and run: Git: Toggle Annotations 	# This will show you changes from the master copy - THE MASTER(Git Commit)
+		gitgutter - https://packagecontrol.io/packages/GitGutter 	# Show an icon in the gutter area indicating whether a line has changes from the ADDED(Git Add) file NOT THE MASTER(Git Commit)
 			# IF POP & GitGutter is not working
 				# GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
 				Press: Win + R  and run: cmd
@@ -140,7 +140,7 @@
 					  "git_binary": "C:\\Program Files\\Git\\cmd\\git.exe"
 					}
 
-## Other Packages
+## Other Optional Packages
 	View In Browser - https://packagecontrol.io/packages/View%20In%20Browser
 	ResourceViewer - https://packagecontrol.io/packages/PackageResourceViewer 	# viewing and editing package resources
 
