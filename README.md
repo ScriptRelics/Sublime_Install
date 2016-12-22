@@ -122,11 +122,13 @@
 		# Commands / Info can be found here: https://github.com/aziz/SublimeFileBrowser
 
 
-	# GIT - First install Git on the computer - https://git-for-windows.github.io/
+	# GIT - Git and Gutter display info from 2 places, your master and your file
+	# First install Git on the computer - https://git-for-windows.github.io/
 	# Check to see if it is working by going to the command line and type: git
 	# Install Git and gutter on ST3
 		git - https://packagecontrol.io/packages/Git
-		gitgutter - https://packagecontrol.io/packages/GitGutter 	# Show an icon in the gutter area indicating whether a line has been inserted, modified or deleted
+			Press: Ctrl + Shift + P  and run: Git: Toggle Annotations 	# This will show you changes from the master copy
+		gitgutter - https://packagecontrol.io/packages/GitGutter 	# Show an icon in the gutter area indicating whether a line has changes from the file
 			# IF POP & GitGutter is not working
 				# GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
 				Press: Win + R  and run: cmd
