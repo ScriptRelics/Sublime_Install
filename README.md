@@ -3,7 +3,7 @@
 ## Download Sublime Text at - https://www.sublimetext.com/3
 
 ## Pre-Setup
-	Click View - select sidebar -
+	Click View - select sidebar - Show Sidebar
 
 ## Install Package Control - https://packagecontrol.io/installation
 	# Show the consol
@@ -51,7 +51,9 @@
 
 ## Packages with additional settup
 	Alignment - https://web.archive.org/web/20150825034957/http://wbond.net/sublime_packages/alignment 	 # alignment of multi-line selections and multiple selections
-	AlignTab - https://packagecontrol.io/packages/AlignTab 	                                             # alignment plugin for tables and more
+		# Select the text to align and press Ctrl + Alt + A to use or right click and select "Alignment - SELECTED" 
+	AlignTab - https://packagecontrol.io/packages/AlignTab 	# alignment plugin for tables and more
+		# Add the Alignment package to the AlignTab Menu and some other options
 		Go to Preferences > Package Settings > AlignTab > Content Menu User
 			Paste:
 				[
@@ -97,7 +99,7 @@
 
 	File​Browser - https://packagecontrol.io/packages/FileBrowser 	# browse your files in a normal tab
 		Press: Ctrl + Shift + P  and run this command: Package Control: Satisfy Dependencies
-		Paste/Add this to your keybinds: Preferences > Key Bindings
+		Paste/Add this to your key bindings: Preferences > Key Bindings
 			[
 				{
 			  "keys": ["f1"],
@@ -120,9 +122,21 @@
 		# Commands / Info can be found here: https://github.com/aziz/SublimeFileBrowser
 
 
-	git - https://packagecontrol.io/packages/Git
-	gitgutter - https://packagecontrol.io/packages/GitGutter 	#show an icon in the gutter area indicating whether a line has been inserted, modified or deleted
-			#GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
+	# GIT - First install Git on the computer - https://git-for-windows.github.io/
+	# Check to see if it is working by going to the command line and type: git
+	# Install Git and gutter on ST3
+		git - https://packagecontrol.io/packages/Git
+		gitgutter - https://packagecontrol.io/packages/GitGutter 	# Show an icon in the gutter area indicating whether a line has been inserted, modified or deleted
+			# IF POP & GitGutter is not working
+				# GitGutter assumes that the git command is available on the command line. If it's not, add the directory containing git.exe to your PATH
+				Press: Win + R  and run: cmd
+				type: where git
+				#use the path for the settings file
+				Preferences > Package Settings > Git Gutter > Settings - User
+				Paste(EDITED FROM CMD):
+					{
+					  "git_binary": "C:\\Program Files\\Git\\cmd\\git.exe"
+					}
 
 ## Other Packages
 	View In Browser - https://packagecontrol.io/packages/View%20In%20Browser
