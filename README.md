@@ -147,7 +147,7 @@
 	ResourceViewer - https://packagecontrol.io/packages/PackageResourceViewer 	# viewing and editing package resources
 
 
-# Snippets - http://docs.sublimetext.info/en/latest/extensibility/snippets.html
+## Snippets - http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 	# Add Snippets to any package’s folder: Packages > User Folder or install via Package Manager
 	Ruby on Rails snippets 	# Autocomplete
 	
