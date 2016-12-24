@@ -2,12 +2,7 @@
 	<content><![CDATA[<!-- ${1:header} File -->
 <?php include( \$_SERVER['DOCUMENT_ROOT'] . '/includes/${1:header}.html' ); ?>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>includefile</tabTrigger>
 	<description> - PHP - Include a HTML File</description>
-	<filelocation> 	<!--Snippets location for copy and paste purposes -->
-		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
-	</filelocation>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>  <!-- text.html source.css .python .shell .js -->
+	<scope>text.html</scope> 
 </snippet>

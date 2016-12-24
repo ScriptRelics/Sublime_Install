@@ -17,7 +17,7 @@
   <![endif]-->
 
     <!-- My Page info
-	Author:Steven Lancaster
+	Author: 
 	Date: $5
 	-->
 
@@ -43,5 +43,4 @@
 ]]></content>
     <tabTrigger>doctype</tabTrigger>
     <description>HTML - HTML foundation</description>
-    <scope>text.html</scope>
 </snippet>

@@ -23,7 +23,7 @@
   <![endif]-->
 
     <!-- My Page info
-    Author:Steven Lancaster
+    Author: 
     Date: ${5:}/15
     -->
 
@@ -80,5 +80,4 @@
 ]]></content>
     <tabTrigger>html</tabTrigger>
     <description>HTML - Boilerplate Temp</description>
-    <scope>text.html</scope>
 </snippet>
