@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+<h1 id="fittext1">FITTEXT EXAMPLE</h1>
+<h1 id="fittext2">FITTEXT EXAMPLE</h1>
+
+<!-- FITTEXT for Enlarging H1 like elements -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+// make sure this path is correct.
+        <script src="/js/jquery.fittext.js"></script>
+
+        <script type="text/javascript">
+        // Vars for media query lessening
+
+// SET SIZE HERE for the media query
+        var width_mql = window.matchMedia("(min-width: ${1:310}px)");
+        // Add a listener for when the result changes
+        width_mql.addListener(setup_for_width);
+        // And share the same code to set things up with our current state.
+        setup_for_width(width_mql);
+        // This will allow fittext to turn on for desktop layouts where fittext works great and change or turn off for mobil layouts where fittext is normaly way too small or large to be useable.
+
+        // Function for watching Media Query
+        function setup_for_width(mql) {
+          if (mql.matches) {
+                    // Fittext Code for sizes LARGER than MQ width
+                    \$("#fittext1").fitText(1.1, { minFontSize: '45px', maxFontSize: '60px' })
+                    \$("#fittext2").fitText(0.8);
+                } else {
+                    // Fittext Code for sizes SMALLER than MQ width
+                    \$("#fittext1").fitText(0.5, { minFontSize: '23px', maxFontSize: '45px' });
+                    //use below if you want to turn fittext off - QUERKY?
+                    //\$(window).off('resize.fittext orientationchange.fittext');
+                }
+            }
+    </script> <!-- END FITTEXT --> $2
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fittext</tabTrigger>
+	<description> - jQuery - Flexable Font Sizes</description>
+	<filelocation> 	<!--Snippets location for copy and paste purposes -->
+		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html </scope>  <!-- text.html source.css source.python -->
+</snippet>

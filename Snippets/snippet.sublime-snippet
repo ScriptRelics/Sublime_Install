@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[<snippet> <!-- \$ characters must have a \forward slash in front to display -->
+	<content><![CDATA[${1:}
+]]${2:DELETE}></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>${3:}</tabTrigger>
+	<description> - ${4:}</description>
+	<filelocation> 	<!--Snippets location for copy and paste purposes -->
+		${6:C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User}
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>${5:text.html}</scope>  <!-- text.html source.css .python .shell .js -->
+</snippet>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>snippet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

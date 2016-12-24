@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[&trade;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>trademark</tabTrigger>
+	<description> - Trademark &#8482; Character Code</description>
+	<filelocation>
+		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+
+</snippet>

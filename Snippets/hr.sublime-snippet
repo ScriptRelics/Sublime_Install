@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<hr />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hr</tabTrigger>
+    	<description>HTML - Horizontal Rule - HR</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

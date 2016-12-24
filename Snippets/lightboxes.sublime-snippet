@@ -1,0 +1,28 @@
+<snippet> <!-- $ characters must have a \forward slash in front to display -->
+	<content><![CDATA[<div class="picandinfocontainer" id="container${1:1}">
+                        <div class="containedpic" id="containedPic${1:1}">
+                            <!-- First Linked Lightbox Image Here -->
+                            <a href="img/${3:photoshop}/${2:other}${1:1}-full1.jpg" data-lightbox="${2:other}${1:1}" data-title="My caption">
+                            <!-- Small Stretched Image on Page
+                                    Min-width=450px; min-height=330px    -->
+                                <img src="img/${3:photoshop}/${2:other}${1:1}-small.jpg" alt="" style="margin-top:-45px;" />
+                            </a>
+                        </div>
+                        <div class="picinfo" id="pic${1:1}">
+                            <!-- Hidden Pic Info -->
+                            Pic Info ${1:1}
+                            <!-- Other Hidden Linked Lightbox Images Here -->
+                            <a href="img/${3:photoshop}/${2:other}${1:1}-full2.jpg" data-lightbox="${2:other}${1:1}" d3ta-title="My caption"></a>
+                            <a href="img/${3:photoshop}/${2:other}${1:1}-full3.jpg" data-lightbox="${2:other}${1:1}" data-title="My caption"></a>
+                        </div>
+                    </div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lightboxs</tabTrigger>
+	<description> - My picture Lightbox code</description>
+	<filelocation> 	<!--Snippets location for copy and paste purposes -->
+		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet w${2:other} trigger -->
+	<scope>text.html</scope>  <!-- text.html source.css .python .shell .js -->
+</snippet>

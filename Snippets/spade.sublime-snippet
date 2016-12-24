@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[&spades;
+]]></content> <!-- Ex: Hello, this is a snippet . -->
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spade</tabTrigger>
+	<description> - Spade &#9824; Character Code</description>
+	<filelocation> 	<!--Snippets location for copy and paste purposes -->
+		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>  <!-- text.html source.css source.python -->
+</snippet>

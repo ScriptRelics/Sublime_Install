@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[border: ${1:4px} ${2:solid} ${3:red};
+$4
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>border</tabTrigger>
+<description> - CSS - Red 4px My Layout Helper</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>source.css</scope> -->
+</snippet>

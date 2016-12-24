@@ -1,0 +1,14 @@
+<snippet>
+        <content><![CDATA[display: flex;
+flex-flow: ${1:row} ${2:no}wrap;
+justify-content: ${3:flex-start | flex-end | center | space-between | space-around};
+align-items: ${4:flex-start | flex-end | center | baseline | stretch};
+align-content: ${5:flex-start | flex-end | center | space-between | space-around | stretch};
+$6
+]]></content>
+                <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+                <tabTrigger>display: flex</tabTrigger>
+                <description> - CSS - Display flex with alignment</description>
+                <!-- Optional: Set a scope to limit where the snippet will trigger -->
+                <scope>source.css</scope>
+</snippet>

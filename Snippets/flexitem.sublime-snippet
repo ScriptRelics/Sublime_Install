@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[flex:${1:1} ${2:0} ${3:auto};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>flex</tabTrigger>
+	<description> - CSS - Flex 1 0 auto</description>
+	<filelocation> 	<!--Snippets location for copy and paste purposes -->
+		C:\Users\BigBoy\Desktop\Sublime Text Build 3083 x64\Data\Packages\User
+	</filelocation>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>  <!-- text.html source.css source.python -->
+</snippet>
