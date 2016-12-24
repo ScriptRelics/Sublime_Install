@@ -125,6 +125,8 @@
 
 	# GIT - First install Git on the computer - https://git-for-windows.github.io/
 	# Check to see if it is working by going to the command line and type: git
+		git config --global user.name "USERNAME"
+		git config --global user.email "USERNAME@users.noreply.github.com"
 	# Install Git and gutter on ST3
 		git - https://packagecontrol.io/packages/Git
 			Press: Ctrl + Shift + P  and run: Git: Toggle Annotations 	# This will show you changes from THE MASTER(Git Commit)
