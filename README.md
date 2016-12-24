@@ -146,3 +146,7 @@
 	View In Browser - https://packagecontrol.io/packages/View%20In%20Browser
 	ResourceViewer - https://packagecontrol.io/packages/PackageResourceViewer 	# viewing and editing package resources
 
+
+# Snippets 
+	Ruby on Rails snippets
+	
